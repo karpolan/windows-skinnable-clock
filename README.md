@@ -16,3 +16,24 @@ It was initially distributed by **[KARPOLAN](https://karpolan.com)** from 1998 t
 The library is now considered **outdated**.
 
 ## AREA_BY_COLOR algorithm
+This algorithm, developed in 1998 by **[KARPOLAN](https://karpolan.com)**, revolves around the use of a **multi-color mask**, be it a bitmap or other graphic, to **designate areas with different colors**. 
+
+The **multi-color mask** is illustrated below:
+
+![image](https://github.com/karpolan/windows-skinnable-clock/assets/1213313/a330b302-c3cb-4177-b907-9f2693001112)
+
+- Each color area on the mask represents a distinct working area.
+- The **gray** area typically signifies the application's body.
+- **Yellow**, **Red**, **Aqua**, **Lime** areas correspond to buttons, and so forth.
+
+The algorithm involves **detecting the color** under the cursor and **triggering events** associated with the **area of that color**. 
+
+So the user see **non-recangular window** according to the mask:
+
+![image](https://github.com/karpolan/windows-skinnable-clock/assets/1213313/34e59231-e71f-4ea7-b983-6418206479d5)
+
+Additionally, you can create **a region for each color area**, allowing the identification of **the currently active region** (as implemented in the **krpRegions Library**).
+
+When the user clicks on a specific area, the algorithm renders the "active" version of the skin on the screen.
+
+![image](https://github.com/karpolan/windows-skinnable-clock/assets/1213313/871b395c-5669-4751-8774-c40c9c27f77a)
