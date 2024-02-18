@@ -23,7 +23,7 @@ The **multi-color mask** is illustrated below:
 ![image](https://github.com/karpolan/windows-skinnable-clock/assets/1213313/a330b302-c3cb-4177-b907-9f2693001112)
 
 - Each color area on the mask represents a distinct working area.
-- The **gray** area typically signifies the application's body.
+- The **Gray** area typically signifies the application's body.
 - **Yellow**, **Aqua**, **Red**, **Fucsia** areas correspond to buttons, and so forth.
 
 The algorithm involves **detecting the color** under the cursor and **triggering events** associated with the **area of that color**. 
