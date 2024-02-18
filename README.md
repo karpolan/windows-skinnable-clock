@@ -1,5 +1,5 @@
 # Windows Skinnable Clock
-Skinnable Clock for Windows - is one of the demonstration apps for **krpRegions Library**
+**Skinnable Clock for Windows** is one of the demonstration apps for **krpRegions Library**
 
 ![image](https://github.com/karpolan/windows-skinnable-clock/assets/1213313/39a7946d-2513-4908-afc0-02f0ba60e193)
 
